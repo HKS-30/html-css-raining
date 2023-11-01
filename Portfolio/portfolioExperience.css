@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+}
+
+body{
+    margin: 10px;
+    height: 100vh;
+    background-color: black;
+}
+.name{
+    color: white;
+}
+
+.name::first-letter{
+    color: rgb(173, 27, 27);;
+}
+
+.head-container{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+}
+
+.nav-container{
+    margin-left: 10%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    width: 15px;
+    padding: 15px;
+
+}
+
+a:hover{
+    background-color: rgb(173, 27, 27);
+    transition: height 4s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#experience-selected{
+    background-color: rgb(173, 27, 27);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.h2-experience{
+    color: white;
+}
+
+.experience-container{
+    margin-bottom: 20px;
+    color: white;
+}
+.experience-img{
+    height: 100vh;
+    width: 100%;
+}
+
+.p-experience{
+    color: white;
+}
+.footer{
+    background-color: rgb(173, 27, 27);
+    color: white;
+    display: flex;
+    text-align: justify;
+    height: 40px;
+    padding: 10px;
+    justify-content: space-evenly;
+}

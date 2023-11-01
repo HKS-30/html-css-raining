@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+}
+
+.p-class{
+    font-size: 10px;
+}
+
+#h1-id{
+    text-align: center;
+    color: aliceblue;
+}
+
+.h-container{
+    text-align: center;
+    color: red;
+}
+
+
+.ul-container{
+    padding: 10px;
+    background-color: rgb(159, 193, 101);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.ul-border{
+    border-radius: 4px;
+}
+
+.ul-list{
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+
+.ol-container{
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.ol-list{
+    background-color: rgb(159, 193, 101);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+

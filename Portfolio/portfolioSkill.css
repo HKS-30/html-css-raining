@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+}
+
+body{
+    margin: 10px;
+    height: 100vh;
+    background-color: black;
+}
+.name{
+    color: white;
+}
+
+.name::first-letter{
+    color: rgb(173, 27, 27);;
+}
+
+.head-container{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+}
+
+.nav-container{
+    margin-left: 10%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    width: 15px;
+    padding: 15px;
+
+}
+
+a:hover{
+    background-color: rgb(173, 27, 27);
+    transition: height 4s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.skill-container{
+    display: flex;
+}
+
+.skill-left{
+    width: 50%;
+    background-image: linear-gradient(white, rgb(234, 94, 94));   
+    border-radius: 50px;
+    margin: 50px;
+    color: rgb(173, 27, 27);
+    text-align: left;
+}
+
+#skill-selected{
+    background-color: rgb(173, 27, 27);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.skill-img{
+    width: 50%;
+}
+.skill-text{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.skill-ul{
+    color: rgb(173, 27, 27);
+    list-style-type: none;
+}
+
+.skill-li{
+    line-height: 1.6;
+    list-style-type: none;
+}
+
+.skill-right{
+    width: 50%;
+}
+
+.skill-img{
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.footer{
+    background-color: rgb(173, 27, 27);
+    color: white;
+    display: flex;
+    text-align: justify;
+    height: 40px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
